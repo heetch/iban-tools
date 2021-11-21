@@ -15,6 +15,11 @@
   length: 28
   bban_pattern: '\d{8}[A-Z0-9]{16}'
 
+'AO':
+  # Angola
+  length: 25
+  bban_pattern: '\d{21}'
+
 'AT':
   # Austria
   length: 20
@@ -99,6 +104,11 @@
   # Dominican Republic
   length: 28
   bban_pattern: '[A-Z]{4}\d{20}'
+
+'DZ':
+  # Algeria
+  length: 24
+  bban_pattern: '\d{20}'
 
 'EG':
   # Egypt
@@ -244,12 +254,12 @@
   # Montenegro
   length: 22
   bban_pattern: '\d{18}'
-  
+
 'MG':
   # Madagascar
   length: 27
   bban_pattern: '\d{23}'
-  
+
 'MK':
   # Macedonia
   length: 19
@@ -344,6 +354,11 @@
   # San Marino
   length: 27
   bban_pattern: '[A-Z]\d{10}[A-Z0-9]{12}'
+
+'SN':
+  # Senegal
+  length: 28
+  bban_pattern: '[A-Z]\d{23}'
 
 'TN':
   # Tunisia
